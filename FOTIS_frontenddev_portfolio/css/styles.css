@@ -1,0 +1,222 @@
+
+.general_info{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width:100%;
+	border: solid 4px #e65c00;
+}
+
+.logo{
+	width: 40%;
+	order:0;
+	
+}
+
+.logo_im{
+	height:100px;
+	width:auto;
+	margin:10px;
+	
+}
+.my_name{
+	width: 60%;
+	order:1;
+	margin-left:auto;
+	text-align:right;
+	margin-right:10px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	color: rgb(255,0,0);
+	font-family: sans-serif;
+}
+
+h2{
+	color:blue;
+}
+
+img{
+	padding:1px;
+   background-color:#00467F;
+}
+
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.ECE_im{
+height:400px;
+  width: 100%;
+  margin:10px;
+}
+
+#summary{
+	display:flex;
+	width:100%;
+	color: purple;
+	font-size:16px;
+	text-align:justify;
+}
+
+@media screen and (min-width:700px){
+	
+.general_info{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width:100%;
+	border: solid 4px #00467F;
+}
+
+.logo_im{
+	height:120px;
+	width:auto;
+	margin:10px;
+	
+}
+
+.container{
+	display:flex;
+	justify-content: space-between;
+	flex-direction:row;
+}
+
+.Electrical_Engineering{
+	width:100%;
+	order:0;
+}
+
+.android{
+	width:40%
+	order:2;
+	
+}
+
+.iOS{
+	width:30%;
+	order:3;
+}
+
+.front_end{
+	width:30%
+	order:1;
+	
+}
+
+img{
+	padding:1px;
+   background-color:#00467F;
+}
+
+#summary{
+	width:100%;
+	color:#008080;
+	font-size:18px;
+	text-align:justify;
+}
+
+.ECE_im{
+	height:800px;
+  width: 100%;
+  margin:10px;
+}
+}
+
+@media screen and (min-width:1000px){
+
+.general_info{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width:100%;
+	border: solid 4px #e65c00;
+}
+
+.logo{
+	width: 40%;
+	order:0;
+	
+}
+
+.logo_im{
+	height:150px;
+	width:auto;
+	margin:10px;
+	
+}
+.my_name{
+	width: 60%;
+	order:1;
+	margin-left:auto;
+	text-align:right;
+	margin-right:40px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	color: rgb(255,0,0);
+	font-family: sans-serif;
+}
+
+h2{
+	color:blue;
+}
+
+img{
+	padding:1px;
+   background-color:#00467F;
+}
+
+.container{
+	display:flex;
+	justify-content: space-between;
+	flex-direction:row;
+}
+
+.Electrical_Engineering{
+	width:100%;
+	order:0;
+}
+
+.android{
+	width:40%
+	order:2;
+	
+}
+
+.iOS{
+	width:30%;
+	order:3;
+}
+
+.front_end{
+	width:30%
+	order:1;
+	
+}
+
+#summary{
+	width:100%;
+	color: orange;
+	font-size:20px;
+	text-align:justify;
+}
+
+.ECE_im{
+height:1000px;
+  width: 100%;
+  margin:10px;
+}
+
+.viewport_3{
+	height:400px;
+	margin:10px;
+}
+}
+
