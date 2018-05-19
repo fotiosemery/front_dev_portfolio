@@ -1,4 +1,3 @@
-
 .general_info{
 	display: flex;
 	flex-direction:row;
@@ -10,14 +9,12 @@
 .logo{
 	width: 40%;
 	order:0;
-	
 }
 
 .logo_im{
 	height:100px;
 	width:auto;
 	margin:10px;
-	
 }
 .my_name{
 	width: 60%;
@@ -40,7 +37,7 @@ h2{
 
 img{
 	padding:1px;
-   background-color:#00467F;
+        background-color:#00467F;
 }
 
 
@@ -50,9 +47,9 @@ img{
 }
 
 .ECE_im{
-height:400px;
-  width: 100%;
-  margin:10px;
+	height:400px;
+	width: 100%;
+  	margin:10px;
 }
 
 #summary{
@@ -64,159 +61,155 @@ height:400px;
 }
 
 @media screen and (min-width:700px){
-	
-.general_info{
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-	width:100%;
-	border: solid 4px #00467F;
-}
+	.general_info{
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+		width:100%;
+		border: solid 4px #00467F;
+	}
 
-.logo_im{
-	height:120px;
-	width:auto;
-	margin:10px;
-	
-}
+	.logo_im{
+		height:120px;
+		width:auto;
+		margin:10px;
+	}
 
-.container{
-	display:flex;
-	justify-content: space-between;
-	flex-direction:row;
-}
+	.container{
+		display:flex;
+		justify-content: space-between;
+		flex-direction:row;
+	}
 
-.Electrical_Engineering{
-	width:100%;
-	order:0;
-}
+	.Electrical_Engineering{
+		width:100%;
+		order:0;
+	}
 
-.android{
-	width:40%
-	order:2;
-	
-}
+	.android{
+		width:40%
+		order:2;
+	}
 
-.iOS{
-	width:30%;
-	order:3;
-}
+	.iOS{
+		width:30%;
+		order:3;
+	}
 
-.front_end{
-	width:30%
-	order:1;
-	
-}
+	.front_end{
+		width:30%
+		order:1;
+	}
 
-img{
-	padding:1px;
-   background-color:#00467F;
-}
+	img{
+		padding:1px;
+   		background-color:#00467F;
+	}
 
-#summary{
-	width:100%;
-	color:#008080;
-	font-size:18px;
-	text-align:justify;
-}
+	#summary{
+		width:100%;
+		color:#008080;
+		font-size:18px;
+		text-align:justify;
+	}
 
-.ECE_im{
-	height:800px;
-  width: 100%;
-  margin:10px;
-}
+	.ECE_im{
+		height:800px;
+  		width: 100%;
+  		margin:10px;
+	}
 }
 
 @media screen and (min-width:1000px){
 
-.general_info{
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-	width:100%;
-	border: solid 4px #e65c00;
-}
+	.general_info{
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+		width:100%;
+		border: solid 4px #e65c00;
+	}
 
-.logo{
-	width: 40%;
-	order:0;
+	.logo{
+		width: 40%;
+		order:0;
 	
-}
+	}
 
-.logo_im{
-	height:150px;
-	width:auto;
-	margin:10px;
+	.logo_im{
+		height:150px;
+		width:auto;
+		margin:10px;
 	
-}
-.my_name{
-	width: 60%;
-	order:1;
-	margin-left:auto;
-	text-align:right;
-	margin-right:40px;
-}
+	}
+	.my_name{
+		width: 60%;
+		order:1;
+		margin-left:auto;
+		text-align:right;
+		margin-right:40px;
+	}
 
-h1{
-	font-size: 40px;
-	font-weight: normal;
-	color: rgb(255,0,0);
-	font-family: sans-serif;
-}
+	h1{
+		font-size: 40px;
+		font-weight: normal;
+		color: rgb(255,0,0);
+		font-family: sans-serif;
+	}
 
-h2{
-	color:blue;
-}
+	h2{
+		color:blue;
+	}
 
-img{
-	padding:1px;
-   background-color:#00467F;
-}
+	img{
+		padding:1px;
+  	 	background-color:#00467F;
+	}
 
-.container{
-	display:flex;
-	justify-content: space-between;
-	flex-direction:row;
-}
-
-.Electrical_Engineering{
-	width:100%;
-	order:0;
-}
-
-.android{
-	width:40%
-	order:2;
+	.container{
+		display:flex;
+		justify-content: space-between;
+		flex-direction:row;
+	}
 	
-}
+	.Electrical_Engineering{
+		width:100%;
+		order:0;
+	}
 
-.iOS{
-	width:30%;
-	order:3;
-}
-
-.front_end{
-	width:30%
-	order:1;
+	.android{
+		width:40%
+		order:2;
 	
-}
+	}
 
-#summary{
-	width:100%;
-	color: orange;
-	font-size:20px;
-	text-align:justify;
-}
+	.iOS{
+		width:30%;
+		order:3;
+	}
 
-.ECE_im{
-height:1000px;
-  width: 100%;
-  margin:10px;
-}
+	.front_end{
+		width:30%
+		order:1;
+	
+	}
 
-.viewport_3{
-	height:400px;
-	margin:10px;
-}
+	#summary{
+		width:100%;
+		color: orange;
+		font-size:20px;
+		text-align:justify;
+	}
+
+	.ECE_im{
+	height:1000px;
+  	width: 100%;
+  	margin:10px;
+	}
+
+	.viewport_3{
+		height:400px;
+		margin:10px;
+	}
 }
 
